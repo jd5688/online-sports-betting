@@ -1,0 +1,126 @@
+
+/* Color Settings */
+body, .gmtxt h3, ul.user-list-box li a, .user-panel .info h6, .betbox h3, .box .status .col, .status, .box h4, .box h5, .buycoin h4, .order-summary .line-total td, .order-summary .line-total th, .box .gmstatus .main_bet label  { color: #121A0D;}
+
+.gmtxt p, .listmenu ul li a, .gmtxt .betitem li, footer, .ftshare a, .box .taglist li a, .betbox h3.title span, .rate, .notify h6, .buycoin_box h5, .paymethod_box h5, .buycoin p.desc, .paymethod_radio label, .ccinputarea label, #newccinput .AddressUL, #newccinput .enterAddressFormTable td label, #newccinput h6.title, .noaccount p, #nettelerbox .enternettelerTable td label, #usrmenu .notifications-menu > .dropdown-menu li.header {color: #828587;}
+
+
+.listmenu ul li a:hover, .ftshare a:hover, .filter p, #filter_menu ul > li > a, .resultCount span.num, .box ul.gminfo-box li, .box ul li, .box .desc, .box .desc p, .notify, .related h4, .mybetstatus h3 span, .mybetstatus .inner .result-box li .col, .mybetstatus.lose .row, .mybetstatus h3, .box ul.gminfo-box li .txt-r, .user-panel .info h6, ul.user-list-box .span_3, .item_radio label, .bet_radio label, .modal-body .subtotal-box li .col.txt-r, ul[data-pie-id] li .col, .payinfo-box li, .buycoin_radio label .price, .order-summary, .minict_wrapper input, input.form-control, #newccinput .inputadd label.cbxbd p, .buycoin article#successarea .purchased-item, .box ul.timeline li a, #usrmenu .dropdown-menu ul li a, .bet_culc, .box .infobox, .bet_radio label span.coinamount {color: #5E5E5E;}
+
+.user-panel .info p, .filter label, #filter_menu li.header, .resultCount, .status span.title, .status .count, .box .gmstatus label, .betbox .inner h4, .bet_radio label span, .box .table thead th, ul.user-list-box .span_3 span, ul.user-list-box .span_4 span, .mybetstatus .inner h4, .mybetstatus .inner .span_4 span, .mybetstatus .inner .totalbet .span_8, .mybetstatus.won .row, .winnerbox .inner h4, .box ul.gminfo-box li, .betbox span.title.time, p.nouser, .modal-body h6.label, .modal-body .subtotal-box li .col, .modal-body .betitem li.coin .count, .modal-body .subtotal-box li span, .modal-body .gmdesc, .remodal.quickbet .gmdesc, ul[data-pie-id] li .col .count, .payinfo-box li .label, .confirm-area .col.span_6 label, .buycoin article#successarea .purchased-item .count, ul.gmlist.list label, .betbox .inner p.txt, .box .main_bet li.label  {color: #AAA;}
+
+.mybetstatus .inner .mayearn, .mybetstatus.won h3, .mybetstatus.won .inner .totalbet .col p, .gmtxt p.result.win, .status p.result.win, .bet_culc span {color: #19AB20;}
+.listmenu ul li.selected a {color: #D23E39; border-color: #D23E39;}
+a.like.added {color: #5890FF;}
+a.bookmark.added, .gmtxt p.result.lose, .status p.result.lose { color: #D23E39; }
+.betbox h3.title, .grapharea .totalbox p { color: #2B9AF3; }
+/* .quickbet .modal-body .betbox h6 {color: #6893ea;} */
+
+#pagetop, .mybetstatus.won .winitem, .mybetstatus.won .winitem .span_4 span, .mybetstatus.won .winitem .mayearn, .mybetstatus.won .winitem .mayearn span, ul.gmlist.list .betitem.betted li.winitem, .navbar-nav>li>a, .box .main_bet li.winitem label {color: #FFF;}
+
+.navbar-nav>li>a {color: #5E5E5E;}
+
+
+/* Background Color Settings */
+body {background-color: #E9E9E9;}
+footer {background-color: #DADADA;}
+header, .listmenu, #filter_menu ul, .gametbl, .box, .betbox h3, .mybetstatus h3, .betbox .inner, .winnerbox .inner, .mybetstatus .inner, .buycoin_step li.active {background-color: #FFF;}
+
+#filter_menu li.header, .ftshare, .user-panel > .image > img, .betbox .rate, .modal-body .betitem, .modal-body .rate, .buycoin article#successarea .purchased-item, ul.gmlist.list .betitem.betted {background-color: #F4F4F4;}
+
+.betbox .inner .rate {
+background-color: rgba(0, 192, 239, 0.85);
+color: #FFF;
+}
+.betbox.coming h3.title {border-color: #00C0EF !important;}
+
+#pagetop {background-color: rgba(0, 0, 0, 0.2);}
+#pagetop:hover {background-color: rgba(0, 0, 0, 0.6);}
+.filter p:hover, .filter p.selected {background-color: rgba(0,0,0,.05);}
+.bet-overlay {/* background-color: rgba(255, 255, 255, 0.85); */}
+.box .ftshare {background-color: transparent;}
+.box .table tbody tr.clickable:hover td, ul.user-list-box li a:hover, .item_radio label:hover, .bet_radio label:hover, #filter_menu ul > li > a:hover, .buycoin_radio label .inner:hover, .paymethod_radio label .inner:hover, #usrmenu .dropdown-menu ul li a:hover {background-color: #e9f4fd;}
+
+.box .main_bet li.winitem label, .box .main_bet li.winitem label:hover, .mybetstatus.won .row.winitem, ul.gmlist.list .betitem.betted li.winitem {background-color: #19AB20 !important;}
+.box .table tbody tr.winitem td, .box .table tbody tr.winitem:hover td {background-color: #19AB20;color: #FFF;}
+.buycoin article, .buycoin_radio label .inner, .paymethod_radio label .inner {background-color: #FFF; border-color: #DADADA;}
+
+
+/* Border Color Settings */
+
+.box .gmstatus label, .listmenu, .gametbl, .ftshare, .box, .betbox h3, .betbox .inner, .betbox .inner h4, .betbox .rate, .simulate, footer, #filter_menu ul, .status, .table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td, .item_radio label:before, .notify label:before, .mybetstatus h3, .mybetstatus .inner, .mybetstatus .inner h4, .mybetstatus .inner .totalbet, .mybetstatus .inner .result-box li:last-child .col, .winnerbox .inner, .winnerbox .inner h4, .notify, .modal-body h6.label, #newccinput input.form-control, .confirm-area .col.span_6 label, .order-summary .line-total td, .order-summary .line-total th, #newccinput h6.title, .minict_wrapper, #newccinput .inputadd label.cbxbd:before, #myaccount form.inputform input[type=text], #myaccount form.inputform input[type=url], #myaccount form.inputform input[type=email], #myaccount form.inputform input[type=password], #myaccount form.inputform input[type=tel], #myaccount form.inputform textarea, #myaccount form.inputform .profimg input[type='file'], #nettelerbox input.form-control, ul.gmlist.list li, .box ul.timeline li a, .dropdown-divider, #usrmenu .notifications-menu > .dropdown-menu li.header, #usrmenu .notifications-menu > .dropdown-menu ul li, .box .main_bet label .item:before {border-color:#DADADA;}
+#filter_menu ul > li > a, #filter_menu li.header {border-color:#EAEAEA;}
+
+.box, .gametbl, .ftshare, .betbox .inner, .winnerbox .inner, .mybetstatus .inner, .betbox h3.title, .mybetstatus h3 {border-color:#DADADA;}
+
+#newccinput input.form-control:focus, input[type='text']:focus, input[type='password']:focus, select:focus, .placeholder:focus, #myaccount form.inputform input[type=text]:focus, #myaccount form.inputform input[type=url]:focus, #myaccount form.inputform input[type=email]:focus, #myaccount form.inputform input[type=password]:focus, #myaccount form.inputform input[type=tel]:focus, #myaccount form.inputform textarea:focus {
+outline: none;
+border-color:#5771FF;
+}
+.error {
+border-color: #E73D3D !important;
+}
+
+.betbox h3.title, .betbox .inner, .remodal.quickbet .betbox {border-color: #2B9AF3;}
+.mybetstatus h3 {border-top-color: #19AB20;}
+.mybetstatus.lose h3 {border-top-color: #5E5E5E;}
+#filter_menu li.header:after, #usrmenu .dropdown-menu li.header:after{border-color: rgba(255, 255, 255, 0);border-bottom-color: #F4F4F4;}
+#usrmenu .dropdown-menu li.header:after {border-bottom-color: #FFF;}
+.buycoin_radio label .inner.c_on, .buycoin_radio label:hover .inner.c_on, .paymethod_radio label .inner.c_on, .paymethod_radio label:hover .inner.c_on {border-color: #2B9AF3;}
+
+
+
+/* Label Color Settings */
+.gmlist span.pickup {background-color: #D23E39;color: #FFF;}
+.box .gmlabel label {color: #00aeef;}
+.box .gmlabel label.new { color: #FF7900;}
+.box .gmlabel.rec label {background-color: #FF7900;color: #FFF;}
+.buycoin .title_box .stepnum {background-color: #2B9AF3;color: #FFF;}
+
+/* Button Color Settings */
+.bet-overlay .btn, #ccsubimitbtn.btn, #addcardbtn.addnew, #nettelerbox #nettelersubimitbtn.btn {color: #FFF; background-color: #2BDE73;border-color: #14C25A;}
+
+.bet-overlay .btn.qbet {background-color: #2B9AF3;border-color: #0C80D9;}
+
+.seemore a {color: #FFF;background-color: #2BDE73;border: 2px solid #2BDE73;
+border: 2px solid #14C25A;
+border-width: 1px 1px 2px 1px;
+}
+.bet-overlay .btn:hover, .seemore a:hover {background-color: #14C25A;border-color: #14C25A;}
+.bet-overlay .btn.qbet:hover {background-color: #0C80D9;border-color: #0C80D9;}
+.box .seemore a, .winnerbox .seemore a, .modal-body .seemore a, .noaccount a.addnew, #banktransfarbox .btn {color: #AAA;background-color: transparent;border: 1px solid #DADADA;}
+.box .seemore a:hover, .winnerbox .seemore a:hover, .modal-body .seemore a:hover, .noaccount a.addnew:hover, #banktransfarbox .btn:hover {background-color: #DADADA; color: #FFF;}
+
+.buycoinbtn, #successarea .btn {background-color: #DADADA;border-color: #DADADA;color: #FFF;}
+.buycoinbtn.active, #successarea .btn {background-color: #2B9AF3;border-color: #2B9AF3;}
+.btn.bet {color: #FFF;background-color: #2B9AF3;}
+.btn.bet:hover {color: #FFF;background-color: #0C80D9;}
+.btn.bet.disabled, .btn.bet.disabled:hover {color: #FFF;background-color: #2B9AF3;}
+.item_radio label.c_on, .item_radio label.c_on:hover, .bet_radio label.c_on, .bet_radio label.c_on:hover {background-color: #2B9AF3;color: #FFF;}
+
+.bet_radio label.c_on span {color: #FFF;}
+.notify label.c_on:before, .modal-body .checkbox label.c_on:before {border-color: #19AB20;background-color: #19AB20;}
+.addnew, #successarea .btn.nml, #cccancelbtn.btn {color: #5E5E5E; background-color: #FFF;border-color: #DADADA; border-width: 1px; border-style: solid;}
+
+
+/* Bet Bar Color Settings */
+.barbase { background-color: #D9D9D9;}
+.betvol.itm-1, .betvol.itm-10 {background-color: #6ead00;}
+.betvol.itm-2, .betvol.itm-8 {background-color: #76bb00;}
+.betvol.itm-3, .betvol.itm-7 {background-color: #8ecc23;}
+.betvol.itm-4, .betvol.itm-6 {background-color: #a7d950;}
+.betvol, .betvol.itm-5 {background-color: #bee180;}
+
+/* Notice Message Color Settings */
+.notice {/* background-color: #F3F09E;color: #7E7E29; */background-color:rgba(118, 187, 0, 0.85); color: #FFF;}
+
+.notice.judgement {background-color:rgba(245, 182, 0, 0.85); color: #FFF;}
+.notice.gameclosed {background-color:rgba(97, 97, 97, 0.85); color: #FFF;}
+.notice.joined {background-color:rgba(25, 171, 32, 0.85); color: #FFF;}
+.notice.freebet {background-color:rgba(43, 154, 243, 0.85); color: #FFF;}
+.notice.needcoins {background-color:rgba(210, 62, 57, 0.85); color: #FFF;}
+.notice.notstarted {background-color:rgba(0, 192, 239, 0.85); color: #FFF;}
+
+
+.req-txt, .notice-txt {background-color: #F3F09E;color: #7E7E29;}
+

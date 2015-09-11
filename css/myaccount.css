@@ -1,0 +1,639 @@
+/* MY ACCOUNT CSS */
+#mymenu .mymenu-links li.active a, .profilecard .userfields .name a, #mymenu .mymenu-links li.dividers, #dashboard .box .highlights .coin, #dashboard .withdrawal_box h3 {
+color: #121A0D;
+}
+#myaccount form.inputform .item_radio label.c_on, ul.mymenu-head li a, #myaccount form.inputform .check_area label, #dashboard .withdrawal_box p.desc, .attention h6, #dashboard .box .coinbalance ul li.last .count, .table.balance>thead>tr>td, .table.balance>tbody>tr>td, .table.balance>tfoot>tr>td {color: #5E5E5E;}
+#myaccount form.inputform p, #myaccount form.inputform div.controls, #dashboard .box .highlights .coin span, #dashboard .title_box_s .viewall, .attention p, #dashboard .attention li, #dashboard .date_range label, #dashboard .date_range_pick li label, .table.balance>tbody>tr>td p, #dashboard .box .coinbox .desc {color: #828587;}
+
+#dashboard .box h5 {color: #2B9AF3;}
+#myaccount form.inputform .form-actions #message {color: #19AB20;}
+
+#mymenu .mymenu-links li a, #dashboard .date_range_pick li a {
+color: #5E5E5E;
+border-color: #DADADA;
+}
+#myaccount form.inputform .avatar, #mymenu .mymenu-links li a:hover {
+background-color: #F5F8FA;
+}
+#dashboard .box .alart, .table.balance>tbody>tr:nth-child(2n)>td {background-color: #F5F8FA;}
+#dashboard .box .alart ul li a {background-color: #FFF;color: #828587;}
+
+#mymenu .mymenu-links li.active a {background-color: rgba(43, 154, 243, 0.8);color: #FFF;}
+
+#myaccount form.inputform, #myaccount form.inputform .form-actions, #mymenu .mymenu-links li.dividers, main.mypage, #myaccount form.inputform .profimg label:before, #myaccount .box, #dashboard .box .title_box, #identity-window input.form-control, #identity-window form input[type='file'] {border-color: #DADADA;}
+
+#dashboard .box .alart h4 {color: #D23E39;}
+#dashboard .box .coinbalance ul li .txt-r p.plus { color: #FFF; background-color: #6bad22;}
+#dashboard .box .coinbalance ul li .txt-r p.minus { color: #FFF; background-color: #d84d4d;}
+
+#myaccount .box, #dashboard .box {background-color:transparent;}
+#myaccount .form-actions .btn, #dashboard .withdrawal_box .btn, #dashboard .date_range .btn {color: #FFF;background-color: #2B9AF3;border-color: #2B9AF3;}
+
+#myaccount form.inputform .item_radio label.c_on:before {
+border-color: #2B9AF3;
+background-color: #2B9AF3;
+box-shadow: 0px 0px 0px 2px #FFF inset;
+}
+
+
+/* my page Menu */
+main.mypage {background: #FFF;
+border-width: 1px 1px 1px 1px;
+border-style: solid;
+border-radius: 6px 6px 6px 6px;
+margin: 20px 0px 20px;
+}
+
+
+
+/* Sidebar Menu */
+#mymenu .mymenu-links {margin: 10px 25px 20px 0px;font-size: 13px;}
+#mymenu .mymenu-links li.dividers {padding: 50px 0px 10px; font-weight: 400;
+border-style: solid;
+border-width: 0px 0px 1px 0px;
+margin-bottom: 8px;
+font-size: 15px;
+}
+#mymenu .mymenu-links li.dividers.b0 {border-width: 0px 0px 0px 0px;}
+#mymenu .mymenu-links li a {position: relative;display: block;padding: 8px 24px 8px 8px;text-decoration: none;text-decoration: none;
+border-style: solid;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+border-width: 0px 0px 0px 0px;
+border-radius: 3px;
+}
+#mymenu .mymenu-links li:first-child a {
+/*
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+*/
+border-width: 0px 0px 0px 0px;
+}
+#mymenu .mymenu-links li:last-child a {
+/*
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;
+*/
+}
+#mymenu .mymenu-links li.active a {font-weight: 600;}
+#mymenu .mymenu-links li a span.icon {
+width: 15px;
+height: 20px;
+content: " ";
+display: inline-block;
+vertical-align: middle;
+margin: -2px 0px 0px 0px;
+background-position: -2px -280px;
+right: 8px;
+position: absolute;
+}
+
+
+.profilecard {margin: 20px 0px 10px;position: relative;}
+.profilecard .avatarlink {
+background-color: #FFF;
+border-radius: 50px;
+margin: 0px 0px 0 0px;
+padding: 2px;
+height: 44px;
+width: 44px;
+vertical-align: bottom;
+display: inline-block;
+}
+
+.profilecard .avatarimage {
+border-radius: 50px;
+height: 40px;
+width: 40px;
+border: 0;
+}
+.profilecard .userfields {
+position: absolute;
+top: 6px;
+left: 52px;
+display: block;
+font-size: 13px;
+}
+.profilecard .userfields a {text-decoration: none;}
+.profilecard .userfields .name {font-size: 14px; font-weight: 600;}
+
+
+
+/* Head Menu Area */
+ul.mymenu-head, ul.mymenu-head li {list-style: none; text-align: center;}
+ul.mymenu-head {margin: 15px 0px 0px;}
+ul.mymenu-head li {display: inline-block;min-width: 90px;margin: 0px 5px;}
+ul.mymenu-head li a {padding: 10px 10px 5px;display: block; text-decoration: none; font-size: 12px; font-weight: 600;text-align: center;border-radius: 2px;}
+ul.mymenu-head li a span {height: 48px;margin-bottom: 1px;display: block; background-color: #FFF;}
+ul.mymenu-head li.active a, ul.mymenu-head li a:hover { background-color: rgba(0,0,0,.15); }
+
+
+
+/* Form Area */
+#myaccount .box, #dashboard .box {margin: 0px 10px 0px 25px;border-width: 0px 0px 0px 0px;border-radius: 0px 0px 0px 0px;}
+#dashboard .box {padding: 0;margin: 0px 0px 0px 0px;}
+#myaccount .box h4, #dashboard .box h4 {font-size: 22px;font-weight: 400;line-height: 22px;margin-bottom: 0; padding: 25px 0px 0px;}
+#myaccount .box p.desc, #dashboard .box p.desc {margin-top: 3px;font-size: 14px;padding: 0px 0px 0px;}
+#dashboard .box h4, #dashboard .box p.desc { padding-left: 20px; padding-right: 20px;}
+#dashboard .box .title_box {border-style: solid; border-width: 0px 0px 1px 0px; }
+#dashboard .box .inner {padding: 20px;}
+
+
+#dashboard .box .alart {padding: 20px; border-radius: 2px;margin-bottom: 30px;}
+#dashboard .box .alart h4 {}
+
+#dashboard .box .alart ul, #dashboard .box .alart ul li {margin: 0; padding: 0; list-style-type: none;}
+#dashboard .box .alart ul {text-align: right;}
+#dashboard .box .alart ul li {display: inline-block; min-width: 140px;}
+#dashboard .box .alart ul li a {padding: 10px; display: block; text-decoration: none;text-align: center; font-size: 12px;}
+#dashboard .box .alart ul li a span {height: 48px;margin-bottom: 5px;display: block;background: #FFF;}
+
+#dashboard .box .highlights {margin: 10px 0px 40px;}
+#dashboard .box .coinbox .coin {
+font-size: 43px;
+line-height: 40px;
+font-weight: 400;
+margin-right: 0em;
+margin-top: .25em;
+font-weight: 600;
+letter-spacing: -.02em;
+font-family: Helvetica,Arial,Verdana,sans-serif;
+}
+#dashboard .box .coinbox .coin span {
+margin: 5px 10px 0px;
+font-size: 16px;
+text-align: right;
+font-weight: 400;
+line-height: 40px;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+#dashboard .box .coinbox .desc {padding-left: 0px;padding-right: 0px;
+margin-top: 0px;
+font-size: 13px;
+}
+#dashboard .box .highlights h5, #dashboard .box .activity h5, #dashboard .box .historytable h5 {font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+margin-bottom: 0;
+padding: 0px 0px 5px;}
+
+
+#dashboard .box .winningbox {position: relative;}
+#dashboard .box .winningbox ul{
+list-style: none;
+padding: 0px;
+position: absolute;
+right: 0%;
+top: 55px;
+width: 50%;
+margin-bottom: 0;
+}
+#dashboard .box .winningbox ul li {font-size: 12px;margin-left: 0px;padding: 2px 10px;margin-bottom: 0px; list-style-type: none; font-weight: 400;}
+#dashboard .box .winningbox ul li .txt-r {font-weight: 600;}
+#dashboard .box #donutchart {
+border-radius: 4px;
+width: 180px;
+margin: 0px;
+margin-left: -22px;
+margin-top: -5px;
+padding: 0px;
+}
+
+#dashboard .box .sidebar_data .chartarea {margin-bottom: 40px;}
+#dashboard .box .sidebar_data .chartarea svg{margin-top: 0px;}
+#dashboard .box .sidebar_data #donutchart{
+width: 200px;
+height: 200px;
+margin: 0px auto;
+padding: 0px;
+}
+
+#dashboard .box .coinbalance .coinbox {padding: 18px 20px 18px 0px;}
+
+#dashboard .box .sidebar_data .chartarea ul, #dashboard .box .coinbalance ul {padding: 0px 0px;border-radius: 2px;}
+#dashboard .box .sidebar_data .chartarea ul li, #dashboard .box .coinbalance ul li {padding: 4px 8px;
+font-weight: 600;
+border-radius: 2px; margin: 0; list-style: none;}
+
+#dashboard .box .coinbalance ul li {font-weight: 400;padding: 3px 0px;font-size: 13px;line-height: 15px;}
+#dashboard .box .coinbalance ul li .span_9 {padding: 3px 0px;}
+
+#dashboard .box .coinbalance ul li p {text-align: center; display: block;text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+padding: 3px;
+border-radius: 2px;
+}
+#dashboard .box .coinbalance ul li .count {
+font-size: 9px;
+margin-left: .3em;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+
+#dashboard .box .coinbalance ul li.last {font-weight: 600;}
+#dashboard .box .coinbalance ul li.last .count {font-size: 11px;}
+
+#dashboard .box ul {padding: 0;margin-bottom: 25px;}
+#dashboard .box ul li {margin-left: 0;}
+
+#dashboard .box ul.gmlist {padding: 0px 0px;}
+#dashboard .box ul.gmlist label {cursor: pointer;}
+#dashboard .box ul.gmlist li a:hover {background-color: #F5F8FA;}
+#dashboard ul.gmlist.list .desc {display: none; padding: 0px ;font-size: 12px;}
+
+#dashboard .joinedgame ul.gmlist.list .gmimg {height: 170px;
+width: 220px;}
+#dashboard .filter {margin-top: 0px;}
+#dashboard .fil_game {margin-left: 0px;}
+
+#dashboard .title_box_s {}
+#dashboard .title_box_s h5{ float: left;}
+#dashboard .title_box_s .viewall {float: right; font-size: 13px; text-decoration: none;padding: 3px 6px;}
+#dashboard .title_box_s .viewall:after {
+width: 9px;
+height: 12px;
+content: " ";
+display: inline-block;
+vertical-align: middle;
+margin: -2px 0px 0px 4px;
+background-position: -53px -284px;
+}
+
+
+#dashboard .withdrawal_box {padding: 0px; border: 2px solid #DADADA;
+margin-bottom: 20px;
+border-radius: 8px;}
+
+#dashboard .withdrawal_box .box-body {padding: 15px 15px 10px;}
+#dashboard .withdrawal_box .box-foot {padding: 10px 15px; background-color: #DADADA; }
+#dashboard .withdrawal_box .box-body .notice-txt {font-size: 12px; line-height: 16px; padding: 10px 15px; }
+
+
+
+#dashboard .withdrawal_box h3 { font-size: 20px; font-weight: 600;}
+#dashboard .withdrawal_box p { font-size: 14px;margin-bottom: 10px;}
+#dashboard .withdrawal_box ul { padding: 0;margin-top: 20px; font-size: 13px;}
+#dashboard .withdrawal_box ul li {font-size: 13px;line-height: 17px;margin-left: 20px;}
+#dashboard .withdrawal_box .guide p {font-size: 12px;line-height: 16px;}
+#dashboard .withdrawal_box form.inputform {margin-top: 20px;}
+#dashboard .withdrawal_box form.inputform label {width: 100px;}
+#dashboard .withdrawal_box form.inputform .form-actions {text-align: center;}
+#dashboard .withdrawal_box form.inputform .btn {
+font-size: 12px;
+padding: 8px 12px;
+}
+
+#dashboard .attention ul, #dashboard .attention li {padding: 0; font-size: 12px;}
+#dashboard .attention ul {margin-bottom: 10px;}
+#dashboard .attention li {margin-left: 20px;}
+
+.box ul.timeline, .box ul.timeline li {margin: 0; padding: 0; list-style-type: none;}
+.box ul.timeline li a {padding: 12px 10px; display: block; text-decoration: none;white-space: nowrap;
+border-width: 0px 0px 1px 0px;
+border-style: solid;
+position: relative;
+}
+.box ul.timeline li a:after {
+clear: both;
+display: table;
+content: " ";
+}
+.box ul.timeline li a .img-circle {margin: auto 10px auto auto;
+width: 40px;
+height: 40px;
+vertical-align: bottom;
+border: 1px solid #DDD;}
+.box ul.timeline li a small.time { position: absolute; right: 12px; top: 12px; font-size: 12px;}
+
+.box ul.timeline.cat li a {padding: 10px 10px;}
+.box ul.timeline.cat li a h6 {font-size: 15px; font-weight: 600;padding: 12px 0px;}
+.box ul.timeline.cat li a .num {font-size: 15px; font-weight: 600;position: absolute;
+right: 10px;
+top: 21px;}
+.box ul.timeline.cat li a .count {
+font-size: 11px;
+margin-left: .3em;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+
+#dashboard .joinedgame .seemore {
+margin: 0 auto;
+text-align: center;
+padding: 10px;
+}
+#dashboard .joinedgame .seemore a {font-size: 14px;padding: 9px 15px;max-width: 185px;}
+
+#bettinggame, #gameresult {margin-bottom: 50px;}
+#twitternews, #timeline {margin-bottom: 0px;}
+
+
+
+#myaccount .box h5 {font-size: 17px;
+font-weight: 400;
+line-height: 21px;
+margin-bottom: 0;
+padding: 0px 20px 20px;
+}
+
+#myaccount form.inputform {font-size: 14px;
+padding: 45px 0px 20px;
+margin: 0px 0 0;
+border-style: solid;
+border-width: 1px 0px 0px 0px;
+}
+#myaccount form.inputform p, #myaccount form.inputform div.controls {
+min-height: 30px;
+margin-bottom: 10px;
+}
+#myaccount form.inputform.noticfication div.controls {margin-bottom: 25px;}
+
+.mypage .payinfo-box ul {padding: 0px 0px;}
+.mypage .payinfo-box li{list-style: none; margin-left: 0px;}
+.mypage #currentcc .inner { padding: 30px 0px 0px; border-top: 1px solid #CCC;}
+.mypage #currentcc .inner:first-child { border-top: 0px solid #CCC;}
+
+.mypage form.inputform label {
+width: 210px;
+padding: 0px 20px 0px 20px;
+display: inline-block;
+min-height: 20px;
+margin: 0 0 5px;
+font-weight: 600;
+vertical-align: top;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+text-align: right;
+}
+
+#myaccount form.inputform label.cbxbd {
+text-align: left;
+padding: 0 0 0 24px;
+width: 100%;
+font-weight: 400;
+font-size: 14px;
+height: inherit;
+text-overflow: inherit;
+white-space: inherit;
+overflow: auto;
+line-height: 17px;
+margin: 0 0 8px;
+position: relative;
+}
+
+#myaccount form.inputform .expiredate .minict_wrapper {
+display: inline-block;
+width: 100px;
+margin-right: 5px;
+}
+
+#myaccount form.inputform label.cbxbd input[type='radio'], #myaccount form.inputform label.cbxbd input[type='checkbox'] {
+/*
+filter: alpha(opacity=0);
+-moz-opacity: 0;
+opacity: 0;
+position: absolute;
+*/
+width: auto;
+}
+#myaccount form.inputform .profimg input:not([type='file']) {
+filter: alpha(opacity=0);
+-moz-opacity: 0;
+opacity: 0;
+position: absolute;
+width: auto;
+}
+
+#myaccount form.inputform .item_radio, #myaccount form.inputform .check_area {
+display: inline-block;
+margin: 3px 0 5px 0;
+width: 50%;
+}
+
+#myaccount form.inputform .item_radio label:hover, #myaccount form.inputform .item_radio label.c_on {
+background-color: transparent;
+}
+
+#myaccount form.inputform .item_radio label:before {
+position: absolute;
+top: 2px;
+left: 0px;
+}
+
+
+.mypage form.inputform input:not([type=submit]), .mypage form.inputform textarea {
+width: 50%;
+display: inline-block;
+}
+
+.mypage form.inputform input[type=text], .mypage  form.inputform input[type=url], .mypage  form.inputform input[type=email], .mypage  form.inputform input[type=password], .mypage  form.inputform input[type=tel], .mypage  form.inputform textarea {
+margin-top: -5px;
+height: 34px;
+position: relative;
+top: 0;
+border-width: 1px;
+border-style: solid;
+}
+
+#myaccount form.inputform textarea {
+margin-bottom: 0px;
+height: 80px;
+resize: vertical;
+}
+
+
+#myaccount form.inputform .avatar {
+float: left;
+overflow: hidden;
+width: 75px;
+height: 75px;
+margin-right: 10px;
+border-radius: 2px;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: cover;
+-moz-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.12);
+-webkit-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.12);
+-ms-box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.12);
+box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.12);
+}
+#myaccount form.inputform .profimg {
+max-width: 100%;
+padding: 0px 0 0 0px;
+margin: 0px 0 0 85px;
+overflow: hidden;
+margin-bottom: 10px;
+min-height: 80px;
+}
+#myaccount form.inputform .profimg input[type='file'] {width: 100%; outline: none;
+padding: 9px 15px;border-radius: 2px;border-width: 1px;
+border-style: solid;cursor: pointer;
+}
+#myaccount form.inputform .profimg input:not([type='file']) {width: inherit;}
+#myaccount form.inputform .profimg label {width: inherit;
+padding: 0px 0px 0px 0px;margin: 5px 0 5px;font-weight: 400;cursor: pointer;}
+#myaccount form.inputform .profimg label:before {width: 16px;
+height: 17px;
+content: " ";
+display: inline-block;
+vertical-align: middle;
+margin: -3px 4px 0px 0;
+border-width: 0px;
+border-style: solid;
+border-radius: 0px;
+background-position: -73px -283px;
+opacity: .7;
+}
+#myaccount form.inputform .profimg label:hover:before {opacity: 1;}
+
+
+#myaccount form.inputform .profimg .c_on label:before {
+background-position: -93px -283px;
+opacity: 1;
+}
+
+
+#myaccount form.inputform .mail_sports_cat {padding: 10px 0px 0px; display: none;}
+#myaccount form.inputform .mail_sports_cat.active {display: block;}
+#myaccount form.inputform .mail_sports_cat .favsports {display: inline-block;}
+
+#myaccount form.inputform #mail_result_opt.disabled {opacity: .5;}
+#myaccount form.inputform #mail_result_opt {opacity: 1;}
+#myaccount form.inputform #mail_result_opt label.cbxbd {margin: 0 0 5px;}
+#myaccount form.inputform #mail_result_opt.disabled label.cbxbd {cursor: default;}
+
+
+
+#myaccount form.inputform .form-actions {
+margin-top: 40px;
+border-style: solid;
+border-width: 1px 0px 0px 0px;
+padding-top: 20px;
+}
+
+#myaccount form.inputform .form-actions #message { font-weight: 600; font-size: 13px; margin-left: 1em; }
+
+#myaccount form.inputform .form-actions .btn, #dashboard .withdrawal_box .btn {
+font-size: 13px;
+font-weight: bold;
+border-width: 1px;
+border-style: solid;
+padding: 9px 16px;
+text-decoration: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+display: inline-table;
+min-width: 100px;
+outline: none;
+font-weight: 600;
+margin: 0;
+cursor: pointer;
+text-align: center;
+}
+
+
+#myaccount form.inputform .wrapper, #myaccount form.inputform .minict_wrapper {display: inline-block;margin: 0 0 .3em 0;width: 50%;margin-top: -5px;}
+#myaccount form.inputform .wrapper {margin-top: 0px;}
+#myaccount form.inputform .minict_wrapper input[type=text] {margin-top: 0px;width: 100%;border-width: 0px;}
+#myaccount form.inputform .minict_wrapper ul li {margin-left: 0px;margin-bottom: 0px;}
+
+#myaccount form.inputform .digest .minict_wrapper {height: 28px;width: 150px;margin-bottom: 15px;margin-left: 40px;}
+#myaccount form.inputform .digest .minict_wrapper input[type=text] {
+font-size: 13px;height: 28px;line-height: 20px;
+}
+#myaccount form.inputform .digest .minict_wrapper:after {height: 26px;line-height: 26px;}
+#myaccount form.inputform .digest .minict_wrapper ul {top: 26px;}
+#myaccount form.inputform .digest .minict_wrapper ul li {font-size: 13px;height: 30px;line-height: 30px;}
+
+#identity-window form.identity_form {margin-bottom: 15px;margin-top: -15px;}
+
+#identity-window .desc {
+font-size: 14px;
+margin-bottom: 20px;
+}
+#identity-window input.form-control {width: 93%;height: 34px; border-style: solid; border-width: 1px;}
+#identity-window form input[type='file'] {
+width: 93%;
+outline: none;
+padding: 9px 15px;
+border-radius: 2px;
+border-width: 1px;
+border-style: solid;
+cursor: pointer;
+}
+#identity-window .minict_wrapper {width: 93%;}
+#identity-window .expire .minict_wrapper {width: 30%; display: inline-block;}
+#identity-window .registered_bank .minict_wrapper  {
+display: inline-block;
+width: 50%;
+margin-bottom: 0;
+vertical-align: middle;
+}
+#identity-window h6.title {margin: 25px 0px 15px;}
+
+#identity-window .atm_confirm {margin: 20px auto 30px;width: 75%;}
+.atm_confirm span.or {margin: 0px auto; font-size: 13px; font-weight: 600; padding: 0px 15px;display: inline-block;vertical-align: middle; height: 34px; line-height: 34px;}
+#identity-window .registered_bank {margin-bottom: 40px;}
+#identity-window .registered_bank .addnew {display: inline-block;margin-bottom: 0;vertical-align: middle;height: 34px;}
+
+
+#newbankinfo_box {display: none;}
+#newbankinfo_box.active {display: block;}
+
+#newbankinfo_box .methodtab {width: 55%;}
+#newbankinfo_box .methodtab>li {width: 50%;}
+
+
+#dashboard #coinbalancechart {margin-bottom: 30px;}
+#dashboard .date_range, #dashboard .date_range_pick {margin-bottom: 15px;}
+#dashboard .date_range_pick, #dashboard .date_range_pick li {list-style: none;}
+#dashboard .date_range_pick {padding: 0;}
+#dashboard .date_range_pick li {display: inline-block;margin-left: 0px;}
+#dashboard .date_range_pick li label {padding: 4px 8px 4px 0px; font-weight: 600;}
+#dashboard .date_range_pick li a {padding: 6px 12px;text-decoration: none;
+border-style: solid;
+border-width: 1px;
+border-radius: 2px;
+font-size: 13px;}
+
+#dashboard .box .table.balance {margin: 20px auto 20px;width: 100%;}
+
+.table.balance>thead>tr>td, .table.balance>tbody>tr>td, .table.balance>tfoot>tr>td {font-size: 14px;}
+
+.table.balance>thead>tr>th, .table.balance>tbody>tr>td {text-align: left;}
+.table.balance>thead>tr>th.txt-r, .table.balance>tbody>tr>td.txt-r {text-align: right;}
+.table.balance>tbody>tr>td p {
+font-size: 12px;
+overflow: hidden;}
+
+#dashboard .date_range label {display: block;font-size: 13px;font-weight: 600;}
+#dashboard .date_range .btn {font-size: 13px;
+font-weight: bold;
+border-width: 1px;
+border-style: solid;
+padding: 9px 16px;
+text-decoration: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+display: inline-table;
+min-width: 80px;
+outline: none;
+font-weight: 600;
+margin: 0;
+cursor: pointer;
+text-align: center;
+height: 34px;
+margin-top: 20px;
+margin-right: 20px;}
+#dashboard .date_range .minict_wrapper {width: 32%; display: inline-block;}
+#dashboard .date_range .minict_wrapper input {padding: 0 1.5rem 0 1.0em;}
+#dashboard .date_range .minict_wrapper:after {width: 1.4rem;}

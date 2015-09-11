@@ -1,0 +1,66 @@
+body#category_10 {background-color: #111;}
+body#category_10 #background {background-image: url('../images/cat_bg/cat10_bg.jpg');
+background-position: center center;	
+background-repeat: no-repeat;
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+z-index: -1;
+}
+
+body#category_10 footer {background-color: rgba(0, 0, 0, 0.75);
+border-color: rgba(255, 255, 255, 0.2);}
+
+
+/* body#category_10 .gametbl, body#category_10 .ftshare {border-width: 0px; border-radius: 0px 0px 0px 0px;} */
+body#category_10 .gmtxt h3, body#category_10 .status {}
+
+/*
+body#category_10 .box .main_bet label p.bbtn span {
+color: #AAA;
+background-color: rgba(255, 255, 255, 0.15);
+border-color: rgba(0, 0, 0, 0);
+}
+*/
+body#category_10 .box .infobox {color: #FFF;}
+
+body#category_10 .box .taglist li.tags a {background-color: rgba(255, 255, 255, 0.15);}
+body#category_10 .box .taglist li.tags a:before { border-right-color: rgba(255, 255, 255, 0.15);}
+body#category_10 .box .taglist li.tags a:after {border: 2px solid rgba(0, 0, 0, 0.75);}
+
+body#category_10 .box {border-radius: 0px;border-width: 0px;background-color: rgba(0, 0, 0, 0.75);}
+body#category_10 .box h1, body#category_10 .box .gmstatus .main_bet label, body#category_10 .box .status .col, body#category_10 .user-panel .info h6,  body#category_10 ul.user-list-box .span_3, body#category_10 #sidebar .item_radio label, body#category_10 #sidebar .bet_radio label, body#category_10 #sidebar .bet_culc {color: #FFF;}
+body#category_10 .box .main_bet label:hover, body#category_10 ul.user-list-box li a:hover, body#category_10 #sidebar .item_radio label:hover, body#category_10 #sidebar .bet_radio label:hover { background-color: rgba(255, 255, 255, 0.15); }
+
+
+body#category_10 #sidebar .item_radio label.c_on, body#category_10 #sidebar .item_radio label.c_on:hover, body#category_10 #sidebar .bet_radio label.c_on, body#category_10 #sidebar .bet_radio label.c_on:hover {background-color: #2B9AF3;color: #FFF;}
+
+body#category_10 .box .gmstatus label, body#category_10 .box .seemore a, body#category_10 .mybetstatus .inner h4, body#category_10 .mybetstatus .inner .totalbet, body#category_10 #sidebar .betbox .inner h4 { border-color: rgba(255, 255, 255, 0.25); }
+
+body#category_10 .box .seemore a:hover {background-color:rgba(255, 255, 255, 0.25);}
+
+body#category_10 .box, body#category_10 .box .desc p, body#category_10 .box ul.gminfo-box li .txt-r, body#category_10 .related h4 {color: #FFF;}
+body#category_10 .box h4 {color: #AAA;}
+
+body#category_10 #sidebar .betbox h3.title, body#category_10 #sidebar .betbox .inner, body#category_10 .mybetstatus h3, body#category_10 .mybetstatus .inner, body#category_10 #sidebar .bet_radio label {border-radius: 0px 0px 0px 0px;}
+
+body#category_10 .mybetstatus h3, body#category_10 .mybetstatus .inner {background-color: rgba(0, 0, 0, 0.75);color: #FFF;border-width: 0px 0px 0px 0px;}
+body#category_10 .mybetstatus h3 {border-width: 4px 0px 0px 0px;}
+
+
+body#category_10 #sidebar .betbox h3.title, body#category_10 #sidebar .betbox .inner {background-color: rgba(0, 0, 0, 0.75);color: #FFF;}
+body#category_10 #sidebar .betbox h3.title {border-width: 6px 0px 0px 0px;border-color: #2B9AF3;padding: 15px 10px 5px;}
+body#category_10 #sidebar .betbox .inner {border-width: 0px 0px 0px 0px;}
+body#category_10 #sidebar .bet_radio {margin: 0px 0px 10px;}
+body#category_10 #sidebar .bet_radio label {margin: 0 0 0px;}
+
+body#category_10 #sidebar .bet_confirm {}
+
+body#category_10 #sidebar .btn.bet.disabled, body#category_10 #sidebar .btn.bet.disabled:hover {
+color: rgba(255, 255, 255, 0.3);
+background-color: rgba(255, 255, 255, 0.15);
+}
+
+body#category_10 article .box:first-child {}
